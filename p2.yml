@@ -1,0 +1,6 @@
+- name: see var
+  hosts: all
+  tasks:
+    - name: show var
+      ansible.builtin.debug:
+        msg: "{{ my_test_var }}"
