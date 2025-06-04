@@ -1,0 +1,7 @@
+---
+plugin: constructed
+strict: true
+use_vars_plugins: true
+filters:
+  my_test_var:
+    - true

@@ -1,0 +1,7 @@
+---
+- name: set fact example
+  hosts: all
+  tasks:
+    - name: set a fact
+      ansible.builtin.set_fact:
+        my_test_var: true
