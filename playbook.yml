@@ -5,3 +5,5 @@
     - name: set a fact
       ansible.builtin.set_fact:
         my_test_var: true
+        cacheable: true
+
